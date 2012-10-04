@@ -1,0 +1,60 @@
+__NOTICE__
+This software is copyright © {{
+    use DateTime;
+
+    $dt = DateTime->now( locale => 'en_GB' );
+    $dt->year == $self->year
+        ? $self->year
+        : $self->year . '-' . $dt->year
+        ;
+}} {{$self->holder}}.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+__LICENSE__
+Terms of the Perl programming language system itself
+
+a) the GNU General Public License as published by the Free
+   Software Foundation; either version 1, or (at your option) any
+   later version, or
+b) the "Artistic License"
+
+--- {{
+    use Software::License::GPL_1;
+
+    Software::License::GPL_1->new({
+        year   => $self->year,
+        holder => $self->holder,
+    })->name;
+}} ---
+
+{{
+    use Software::License::GPL_1;
+
+    Software::License::GPL_1->new({
+        year   => $self->year,
+        holder => $self->holder,
+    })->fulltext;
+}}
+
+--- {{
+    use Software::License::Artistic_1_0;
+
+    Software::License::Artistic_1_0->new({
+        year   => $self->year,
+        holder => $self->holder,
+    })->name;
+}} ---
+
+{{
+    use Software::License::Artistic_1_0;
+
+    Software::License::Artistic_1_0->new({
+        year   => $self->year,
+        holder => $self->holder,
+    })->fulltext;
+}}
+__META_NAME__
+perl
+__META2_NAME__
+perl_5

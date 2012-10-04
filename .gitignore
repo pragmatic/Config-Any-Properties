@@ -1,0 +1,12 @@
+xt/perltidy.rc
+xt/perlcritic.rc
+/Config-Any-Properties*
+*.swp
+*.bak
+*.tdy
+*.old
+.build
+.includepath
+.project
+.DS_Store
+.mediawiki*
