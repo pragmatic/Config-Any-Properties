@@ -23,15 +23,13 @@ Loads [Config::Properties](http://search.cpan.org/perldoc?Config::Properties) pr
 
 # METHODS
 
-## load
-
-Attempts to load `$file` as a [Config::Properties](http://search.cpan.org/perldoc?Config::Properties) file.
-
-# FUNCTIONS
-
 ## extensions
 
 Return an array of valid extensions (`properties`, `props`).
+
+## load
+
+Attempts to load `$file` as a [Config::Properties](http://search.cpan.org/perldoc?Config::Properties) file.
 
 ## requires\_any\_of
 
