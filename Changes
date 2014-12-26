@@ -1,6 +1,8 @@
 Revision history for Config-Any-Properties
 
 {{$NEXT}}
+
+0.001001  2014-12-26
  [ENHANCEMENTS]
  - Change PWP::Encoding to PWP::SingleEncoding as the latter is now built in to Pod::Weaver (sergeyromanov)
 
