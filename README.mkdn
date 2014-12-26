@@ -4,9 +4,9 @@ Config::Any::Properties - Config::Any loader for Java-style property files
 
 # VERSION
 
-`0.001000`
+`0.001001`
 
-Released on Thursday, 4 October 2012.
+Released on Friday, 26 December 2014.
 
 # SYNOPSIS
 
@@ -19,7 +19,7 @@ Released on Thursday, 4 October 2012.
 
 # DESCRIPTION
 
-Loads [Config::Properties](http://search.cpan.org/perldoc?Config::Properties) property files.
+Loads [Config::Properties](https://metacpan.org/pod/Config::Properties) property files.
 
 # METHODS
 
@@ -29,32 +29,27 @@ Return an array of valid extensions (`properties`, `props`).
 
 ## load
 
-Attempts to load `$file` as a [Config::Properties](http://search.cpan.org/perldoc?Config::Properties) file.
+Attempts to load `$file` as a [Config::Properties](https://metacpan.org/pod/Config::Properties) file.
 
 ## requires\_any\_of
 
-Specifies that this module requires [Config::Properties](http://search.cpan.org/perldoc?Config::Properties) in order to work.
-
-
-
-
-
-
+Specifies that this module requires [Config::Properties](https://metacpan.org/pod/Config::Properties) in order to work.
 
 # SEE ALSO
 
-- [Config::Properties](http://search.cpan.org/perldoc?Config::Properties)
-- [Log::Any](http://search.cpan.org/perldoc?Log::Any)
+- [Config::Properties](https://metacpan.org/pod/Config::Properties)
+- [Log::Any](https://metacpan.org/pod/Log::Any)
 - [".properties" on Wikipedia](http://en.wikipedia.org/wiki/.properties)
 - [Official Oracle java.util.Properties API](http://docs.oracle.com/javase/1.5.0/docs/api/java/util/Properties.html)
 
-# AUTHOR
+# AUTHORS
 
-Peter Hallam <pragmatic@cpan.org>
+- Peter Hallam <pragmatic@cpan.org>
+- Сергей Романов <sromanov-dev@yandex.ru>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright © 2012 Peter Hallam.
+This software is copyright © 2012-2014 Peter Hallam.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

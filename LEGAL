@@ -1,5 +1,5 @@
 __NOTICE__
-This software is copyright © {{
+This software is copyright E<copy> {{
     use DateTime;
 
     $dt = DateTime->now( locale => 'en_GB' );
